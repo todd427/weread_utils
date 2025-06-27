@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Great Big Beautiful Life: Reese's Book Club",
+    "author": "Emily Henry",
+    "isbn": "9780593441244",
+    "openlibrary_url": "https://play.google.com/store/books/details?id=ybgfEQAAQBAJ&source=gbs_api",
+    "amazon_search_url": "https://www.amazon.com/s?k=Great+Big+Beautiful+Life+Reeses+Book+Club+Emily+Henry"
+  },
+  {
+    "title": "The Demon of Unrest: A Saga of Hubris, Heartbreak, and Heroism at the Dawn of the Civil War",
+    "author": "Erik Larson",
+    "isbn": "9791223042861",
+    "openlibrary_url": "http://books.google.com/books?id=tQMKEQAAQBAJ&dq=The+Demon+of+Unrest:+A+Saga+of+Hubris,+Heartbreak,+and+Heroism+at+the+Dawn+of+the+Civil+War&hl=&source=gbs_api",
+    "amazon_search_url": "https://www.amazon.com/s?k=The+Demon+of+Unrest+A+Saga+of+Hubris%2C+Heartbreak%2C+and+Heroism+at+the+Dawn+of+the+Civil+War+Erik+Larson"
+  },
+  {
+    "title": "L.A. Witch: Birthday (LA Witch Book 1)",
+    "author": "T.J. McCaffrey",
+    "isbn": "9781442468153",
+    "openlibrary_url": "http://books.google.com/books?id=Pl3JRktCqHwC&dq=L.A.+Witch:+Birthday+(LA+Witch+Book+1)&hl=&source=gbs_api",
+    "amazon_search_url": "https://www.amazon.com/s?k=L.A.+Witch+Birthday+T.J.+McCaffrey"
+  },
+  {
+    "title": "The Ascent of Money: A Financial History of the World: 10th Anniversary Edition",
+    "author": "Niall Ferguson",
+    "isbn": "0141990260",
+    "openlibrary_url": "http://books.google.com/books?id=S-jIwQEACAAJ&dq=The+Ascent+of+Money:+A+Financial+History+of+the+World:+10th+Anniversary+Edition&hl=&source=gbs_api",
+    "amazon_search_url": "https://www.amazon.com/s?k=The+Ascent+of+Money+A+Financial+History+of+the+World+10th+Anniversary+Edition+Niall+Ferguson"
+  },
+  {
+    "title": "Deep Wizardry (Young Wizards Series Book 2)",
+    "author": "Diane Duane",
+    "isbn": "9780547538662",
+    "openlibrary_url": "https://play.google.com/store/books/details?id=UKQPdEsjHI4C&source=gbs_api",
+    "amazon_search_url": "https://www.amazon.com/s?k=Deep+Wizardry+Diane+Duane"
+  }
+]

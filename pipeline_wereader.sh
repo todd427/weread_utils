@@ -35,9 +35,9 @@ JSON="${BASEDIR}/${BASENAME}.json"
 CLEAN_JSON="clean_${BASEDIR}/${BASENAME}_clean.json"
 ENRICHED_JSON="enrich_${BASEDIR}/${BASENAME}_enriched.json"
 AZT_JSON="AZT_${BASEDIR}/${BASENAME}_amazon_tagged.json"
-FINAL_JSON="Aurls_${BASEDIR}/${BASENAME}_final.json"
+FINAL_JSON="Final_${BASEDIR}/${BASENAME}_final.json"
 
-mkdir -p "clean_${BASEDIR}" "enrich_${BASEDIR}" "AZT_${BASEDIR}" "Aurls_${BASEDIR}"
+mkdir -p "clean_${BASEDIR}" "enrich_${BASEDIR}" "AZT_${BASEDIR}" "Final_${BASEDIR}"
 
 # ---- PIPELINE ----
 
