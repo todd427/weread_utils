@@ -1,0 +1,186 @@
+[
+  {
+    "title": "Building Your First ReACT LLM Agent Using Python: A Hands-On, Expert Guide to Mastering the Reasoning + Acting (ReACT) Pattern for Building Smart AI Agents ... OpenAI, LangChain, and Tool Integration",
+    "author": "Adam McCleary",
+    "isbn": "9781786469670",
+    "openlibrary_url": "https://play.google.com/store/books/details?id=O1AoDwAAQBAJ&source=gbs_api",
+    "amazon_search_url": "https://www.amazon.com/s?k=Building+Your+First+ReACT+LLM+Agent+Using+Python+A+HandsOn%2C+Expert+Guide+to+Mastering+the+Reasoning+%2B+Acting+Pattern+for+Building+Smart+AI+Agents+...+OpenAI%2C+LangChain%2C+and+Tool+Integration+Adam+McCleary",
+    "amazon_url": "https://www.amazon.com/dp/1786469677"
+  },
+  {
+    "title": "Generative AI with LangChain: Build production-ready LLM applications and advanced agents using Python, LangChain, and LangGraph",
+    "author": "Ben Auffarth, Leonid Kuligin",
+    "isbn": "9781837022007",
+    "openlibrary_url": "https://play.google.com/store/books/details?id=G2hfEQAAQBAJ&source=gbs_api",
+    "amazon_search_url": "https://www.amazon.com/s?k=Generative+AI+with+LangChain+Build+productionready+LLM+applications+and+advanced+agents+using+Python%2C+LangChain%2C+and+LangGraph+Ben+Auffarth%2C+Leonid+Kuligin",
+    "amazon_url": "https://www.amazon.com/dp/1837022003"
+  },
+  {
+    "title": "Learning React: Modern Patterns for Developing React Apps",
+    "author": "Alex Banks, Eve Porcello",
+    "isbn": "9781492051695",
+    "openlibrary_url": "http://books.google.com/books?id=tDjrDwAAQBAJ&dq=Learning+React:+Modern+Patterns+for+Developing+React+Apps&hl=&source=gbs_api",
+    "amazon_search_url": "https://www.amazon.com/s?k=Learning+React+Modern+Patterns+for+Developing+React+Apps+Alex+Banks%2C+Eve+Porcello",
+    "amazon_url": "https://www.amazon.com/dp/1492051691"
+  },
+  {
+    "title": "Modern Full-Stack React Projects: Build, maintain, and deploy modern web apps using MongoDB, Express, React, and Node.js",
+    "author": "Daniel Bugl",
+    "isbn": "9781788832946",
+    "openlibrary_url": "https://play.google.com/store/books/details?id=anteDwAAQBAJ&source=gbs_api",
+    "amazon_search_url": "https://www.amazon.com/s?k=Modern+FullStack+React+Projects+Build%2C+maintain%2C+and+deploy+modern+web+apps+using+MongoDB%2C+Express%2C+React%2C+and+Node.js+Daniel+Bugl",
+    "amazon_url": "https://www.amazon.com/dp/1788832949"
+  },
+  {
+    "title": "React Projects: Build 12 real-world applications from scratch using React, React Native, and React 360",
+    "author": "Roy Derks",
+    "isbn": "9781789953398",
+    "openlibrary_url": "https://play.google.com/store/books/details?id=2HvGDwAAQBAJ&source=gbs_api",
+    "amazon_search_url": "https://www.amazon.com/s?k=React+Projects+Build+12+realworld+applications+from+scratch+using+React%2C+React+Native%2C+and+React+360+Roy+Derks",
+    "amazon_url": "https://www.amazon.com/dp/1789953391"
+  },
+  {
+    "title": "Docker Deep Dive: Zero to Docker in a single book",
+    "author": "Nigel Poulton",
+    "isbn": "9781800569119",
+    "openlibrary_url": "https://play.google.com/store/books/details?id=DicGEAAAQBAJ&source=gbs_api",
+    "amazon_search_url": "https://www.amazon.com/s?k=Docker+Deep+Dive+Zero+to+Docker+in+a+single+book+Nigel+Poulton",
+    "amazon_url": "https://www.amazon.com/dp/1800569114"
+  },
+  {
+    "title": "The Kubernetes Book",
+    "author": "Nigel Poulton",
+    "isbn": "",
+    "openlibrary_url": "http://books.google.com/books?id=nN07zQEACAAJ&dq=The+Kubernetes+Book&hl=&source=gbs_api",
+    "amazon_search_url": "https://www.amazon.com/s?k=The+Kubernetes+Book+Nigel+Poulton",
+    "amazon_url": "https://www.amazon.com/s?k=The+Kubernetes+Book+Nigel+Poulton"
+  },
+  {
+    "title": "Django in Production: Expert tips, strategies, and essential frameworks for writing scalable and maintainable code in Django",
+    "author": "Arghya Saha",
+    "isbn": "9781804611289",
+    "openlibrary_url": "https://play.google.com/store/books/details?id=Jm36EAAAQBAJ&source=gbs_api",
+    "amazon_search_url": "https://www.amazon.com/s?k=Django+in+Production+Expert+tips%2C+strategies%2C+and+essential+frameworks+for+writing+scalable+and+maintainable+code+in+Django+Arghya+Saha",
+    "amazon_url": "https://www.amazon.com/dp/180461128X"
+  },
+  {
+    "title": "A Developer's Essential Guide to Docker Compose: Simplify the development and orchestration of multi-container applications",
+    "author": "Emmanouil Gkatziouras",
+    "isbn": "9781801813815",
+    "openlibrary_url": "https://play.google.com/store/books/details?id=WaiJEAAAQBAJ&source=gbs_api",
+    "amazon_search_url": "https://www.amazon.com/s?k=A+Developers+Essential+Guide+to+Docker+Compose+Simplify+the+development+and+orchestration+of+multicontainer+applications+Emmanouil+Gkatziouras",
+    "amazon_url": "https://www.amazon.com/dp/1801813817"
+  },
+  {
+    "title": "The Sacketts Volume One 5-Book Bundle: Sackett's Land, To the Far Blue Mountains, The Warrior's Path, Jubal Sackett, Ride the River",
+    "author": "Louis L'Amour",
+    "isbn": "9780804180627",
+    "openlibrary_url": "https://play.google.com/store/books/details?id=YTwGAwAAQBAJ&source=gbs_api",
+    "amazon_search_url": "https://www.amazon.com/s?k=The+Sacketts+Volume+One+5Book+Bundle+Sacketts+Land%2C+To+the+Far+Blue+Mountains%2C+The+Warriors+Path%2C+Jubal+Sackett%2C+Ride+the+River+Louis+L%27Amour",
+    "amazon_url": "https://www.amazon.com/dp/0804180628"
+  },
+  {
+    "title": "Methuselah's Children",
+    "author": "Robert A. Heinlein",
+    "isbn": "0450009149",
+    "openlibrary_url": "http://books.google.com/books?id=UAmoPwAACAAJ&dq=Methuselah%27s+Children&hl=&source=gbs_api",
+    "amazon_search_url": "https://www.amazon.com/s?k=Methuselahs+Children+Robert+A.+Heinlein",
+    "amazon_url": "https://www.amazon.com/dp/0450009149"
+  },
+  {
+    "title": "Build a Large Language Model (From Scratch)",
+    "author": "Sebastian Raschka",
+    "isbn": "9781638355731",
+    "openlibrary_url": "https://play.google.com/store/books/details?id=scIgEQAAQBAJ&source=gbs_api",
+    "amazon_search_url": "https://www.amazon.com/s?k=Build+a+Large+Language+Model+Sebastian+Raschka",
+    "amazon_url": "https://www.amazon.com/dp/1638355738"
+  },
+  {
+    "title": "Benjamin Franklin: An American Life",
+    "author": "Walter Isaacson",
+    "isbn": "9780743260848",
+    "openlibrary_url": "https://play.google.com/store/books/details?id=oIW915dDMBwC&source=gbs_api",
+    "amazon_search_url": "https://www.amazon.com/s?k=Benjamin+Franklin+An+American+Life+Walter+Isaacson",
+    "amazon_url": "https://www.amazon.com/dp/0743260848"
+  },
+  {
+    "title": "Django for Professionals: Production websites with Python & Django",
+    "author": "William S. Vincent",
+    "isbn": "",
+    "openlibrary_url": "https://play.google.com/store/books/details?id=0VxwDwAAQBAJ&source=gbs_api",
+    "amazon_search_url": "https://www.amazon.com/s?k=Django+for+Professionals+Production+websites+with+Python+%26+Django+William+S.+Vincent",
+    "amazon_url": "https://www.amazon.com/s?k=Django+for+Professionals%3A+Production+websites+with+Python+%26+Django+William+S.+Vincent"
+  },
+  {
+    "title": "Django 5 Mastery: A Comprehensive Guide to Modern Web Development",
+    "author": "Charles J.  Diaz",
+    "isbn": "9781118008188",
+    "openlibrary_url": "http://books.google.com/books?id=aGjaBTbT0o0C&dq=Django+5+Mastery:+A+Comprehensive+Guide+to+Modern+Web+Development&hl=&source=gbs_api",
+    "amazon_search_url": "https://www.amazon.com/s?k=Django+5+Mastery+A+Comprehensive+Guide+to+Modern+Web+Development+Charles+J.++Diaz",
+    "amazon_url": "https://www.amazon.com/dp/1118008189"
+  },
+  {
+    "title": "Vibe Coding by Example",
+    "author": "H. Peter Alesso",
+    "isbn": "9788393351633",
+    "openlibrary_url": "https://play.google.com/store/books/details?id=UOFaEQAAQBAJ&source=gbs_api",
+    "amazon_search_url": "https://www.amazon.com/s?k=Vibe+Coding+by+Example+H.+Peter+Alesso",
+    "amazon_url": "https://www.amazon.com/dp/8393351634"
+  },
+  {
+    "title": "Django 5 Cookbook: 70+ problem solving techniques, sample programs, and troubleshoots across python programs and web apps",
+    "author": "Clara Stein",
+    "isbn": "9788119177660",
+    "openlibrary_url": "https://play.google.com/store/books/details?id=ezD-EAAAQBAJ&source=gbs_api",
+    "amazon_search_url": "https://www.amazon.com/s?k=Django+5+Cookbook+70%2B+problem+solving+techniques%2C+sample+programs%2C+and+troubleshoots+across+python+programs+and+web+apps+Clara+Stein",
+    "amazon_url": "https://www.amazon.com/dp/8119177665"
+  },
+  {
+    "title": "Taking Manhattan: The Extraordinary Events That Created New York and Shaped America",
+    "author": "Russell Shorto",
+    "isbn": "9780393881172",
+    "openlibrary_url": "https://play.google.com/store/books/details?id=hs8IEQAAQBAJ&source=gbs_api",
+    "amazon_search_url": "https://www.amazon.com/s?k=Taking+Manhattan+The+Extraordinary+Events+That+Created+New+York+and+Shaped+America+Russell+Shorto",
+    "amazon_url": "https://www.amazon.com/dp/0393881172"
+  },
+  {
+    "title": "Beginning Django API with React: Build Django 4 Web APIs with React Full Stack Applications",
+    "author": "Greg Lim, Daniel Correa",
+    "isbn": "",
+    "openlibrary_url": "https://play.google.com/store/books/details?id=0VxwDwAAQBAJ&source=gbs_api",
+    "amazon_search_url": "https://www.amazon.com/s?k=Beginning+Django+API+with+React+Build+Django+4+Web+APIs+with+React+Full+Stack+Applications+Greg+Lim%2C+Daniel+Correa",
+    "amazon_url": "https://www.amazon.com/s?k=Beginning+Django+API+with+React%3A+Build+Django+4+Web+APIs+with+React+Full+Stack+Applications+Greg+Lim%2C+Daniel+Correa"
+  },
+  {
+    "title": "Ethics 101: From Altruism and Utilitarianism to Bioethics and Political Ethics, an Exploration of the Concepts of Right and Wrong (Adams 101 Series)",
+    "author": "Brian Boone",
+    "isbn": "9781507204948",
+    "openlibrary_url": "https://play.google.com/store/books/details?id=odeuDgAAQBAJ&source=gbs_api",
+    "amazon_search_url": "https://www.amazon.com/s?k=Ethics+101+From+Altruism+and+Utilitarianism+to+Bioethics+and+Political+Ethics%2C+an+Exploration+of+the+Concepts+of+Right+and+Wrong+Brian+Boone",
+    "amazon_url": "https://www.amazon.com/dp/1507204949"
+  },
+  {
+    "title": "Django 5 for the Impatient: Learn the core concepts of Django to develop Python web applications",
+    "author": "Daniel Correa, Greg Lim",
+    "isbn": "9781835468333",
+    "openlibrary_url": "https://play.google.com/store/books/details?id=pbgYEQAAQBAJ&source=gbs_api",
+    "amazon_search_url": "https://www.amazon.com/s?k=Django+5+for+the+Impatient+Learn+the+core+concepts+of+Django+to+develop+Python+web+applications+Daniel+Correa%2C+Greg+Lim",
+    "amazon_url": "https://www.amazon.com/dp/1835468330"
+  },
+  {
+    "title": "Django 5 By Example: Build powerful and reliable Python web applications from scratch",
+    "author": "Antonio Melé",
+    "isbn": "9781788472005",
+    "openlibrary_url": "https://play.google.com/store/books/details?id=IHxeDwAAQBAJ&source=gbs_api",
+    "amazon_search_url": "https://www.amazon.com/s?k=Django+5+By+Example+Build+powerful+and+reliable+Python+web+applications+from+scratch+Antonio+Mel%C3%A9",
+    "amazon_url": "https://www.amazon.com/dp/1788472004"
+  },
+  {
+    "title": "Ethics For Dummies",
+    "author": "Christopher Panza, Adam Potthast",
+    "isbn": "9780470650448",
+    "openlibrary_url": "https://play.google.com/store/books/details?id=dHw9gUxy3ZwC&source=gbs_api",
+    "amazon_search_url": "https://www.amazon.com/s?k=Ethics+For+Dummies+Christopher+Panza%2C+Adam+Potthast",
+    "amazon_url": "https://www.amazon.com/dp/0470650443"
+  }
+]
