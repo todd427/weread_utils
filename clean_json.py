@@ -4,8 +4,10 @@ import argparse
 
 JUNK_KEYWORDS = [
     "your account", "not yet shipped", "amazon pay", "click here",
-    "report the bug", "product safety", "recalls", "returns", "sign in"
+    "report the bug", "product safety", "recalls", "returns", "sign in",
+    "see what's new", "your orders"
 ]
+
 
 def is_valid_book(entry):
     title = entry.get("title", "").strip().lower()
