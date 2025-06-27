@@ -1,0 +1,58 @@
+[
+  {
+    "title": "The Oxford Handbook of Cyberpsychology (Oxford Library of Psychology)",
+    "author": "Alison Attrill-Smith, Chris Fullwood, Melanie Keep, Daria J. Kuss",
+    "isbn": "9780192540973",
+    "openlibrary_url": "https://play.google.com/store/books/details?id=wAuXDwAAQBAJ&source=gbs_api",
+    "amazon_search_url": "https://www.amazon.com/s?k=The+Oxford+Handbook+of+Cyberpsychology+Alison+Attrill-Smith%2C+Chris+Fullwood%2C+Melanie+Keep%2C+Daria+J.+Kuss"
+  },
+  {
+    "title": "Wit and Wisdom: An Author's Journey (Successful Indie Author Book 6)",
+    "author": "Craig Martelle",
+    "isbn": "1986913775",
+    "openlibrary_url": "http://books.google.com/books?id=TCGntQEACAAJ&dq=Wit+and+Wisdom:+An+Author%27s+Journey+(Successful+Indie+Author+Book+6)&hl=&source=gbs_api",
+    "amazon_search_url": "https://www.amazon.com/s?k=Wit+and+Wisdom+An+Authors+Journey+Craig+Martelle"
+  },
+  {
+    "title": "Web Scraping Practical with Python: Crawling with Scrapy, Beautiful Soup, Selenium and more.",
+    "author": "Adam Barone",
+    "isbn": "9781491910252",
+    "openlibrary_url": "http://books.google.com/books?id=7z_fCQAAQBAJ&dq=Web+Scraping+Practical+with+Python:+Crawling+with+Scrapy,+Beautiful+Soup,+Selenium+and+more.&hl=&source=gbs_api",
+    "amazon_search_url": "https://www.amazon.com/s?k=Web+Scraping+Practical+with+Python+Crawling+with+Scrapy%2C+Beautiful+Soup%2C+Selenium+and+more.+Adam+Barone"
+  },
+  {
+    "title": "React Crash Course (Updated to React 19)",
+    "author": "Greg Lim",
+    "isbn": "9811759510",
+    "openlibrary_url": "http://books.google.com/books?id=4Xrq0AEACAAJ&dq=React+Crash+Course+(Updated+to+React+19)&hl=&source=gbs_api",
+    "amazon_search_url": "https://www.amazon.com/s?k=React+Crash+Course+Greg+Lim"
+  },
+  {
+    "title": "The Road to React: The React.js 19 with Hooks in JavaScript Book (2025 Edition)",
+    "author": "Robin Wieruch",
+    "isbn": "9781492051671",
+    "openlibrary_url": "https://play.google.com/store/books/details?id=tjjrDwAAQBAJ&source=gbs_api",
+    "amazon_search_url": "https://www.amazon.com/s?k=The+Road+to+React+The+React.js+19+with+Hooks+in+JavaScript+Book+Robin+Wieruch"
+  },
+  {
+    "title": "Web Scraping with Python",
+    "author": "Ryan Mitchell",
+    "isbn": "9781491910252",
+    "openlibrary_url": "http://books.google.com/books?id=7z_fCQAAQBAJ&dq=Web+Scraping+with+Python&hl=&source=gbs_api",
+    "amazon_search_url": "https://www.amazon.com/s?k=Web+Scraping+with+Python+Ryan+Mitchell"
+  },
+  {
+    "title": "Business Essentials for Writers: How to make money in an ever-changing industry",
+    "author": "James Nettles",
+    "isbn": "1942743025",
+    "openlibrary_url": "http://books.google.com/books?id=nl0lywEACAAJ&dq=Business+Essentials+for+Writers:+How+to+make+money+in+an+ever-changing+industry&hl=&source=gbs_api",
+    "amazon_search_url": "https://www.amazon.com/s?k=Business+Essentials+for+Writers+How+to+make+money+in+an+everchanging+industry+James+Nettles"
+  },
+  {
+    "title": "Building Agentic AI from Scratch: A Practical Guide to Designing, Implementing, and Deploying Autonomous AI Agents",
+    "author": "Elbert Gale",
+    "isbn": "9781098110703",
+    "openlibrary_url": "https://play.google.com/store/books/details?id=W890EAAAQBAJ&source=gbs_api",
+    "amazon_search_url": "https://www.amazon.com/s?k=Building+Agentic+AI+from+Scratch+A+Practical+Guide+to+Designing%2C+Implementing%2C+and+Deploying+Autonomous+AI+Agents+Elbert+Gale"
+  }
+]

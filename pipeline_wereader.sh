@@ -1,51 +1,59 @@
 #!/bin/bash
 
-set -e
+# Usage:
+#   bash pipeline_wereader.sh --page toddReads/page3
+#   OR
+#   bash pipeline_wereader.sh --page /full/path/to/page3
 
-# --- USAGE ---
-usage() {
-    echo "Usage: $0 --page <file path without .htm>"
-    echo "Example: $0 --page toddReads/page2"
-    exit 1
-}
-
-# --- ARG PARSE ---
+# ---- ARGUMENT PARSING ----
 if [[ $# -gt 0 ]]; then
+  while [[ $# -gt 0 ]]; do
     case $1 in
-        --page) PAGE="$2"; shift 2 ;;
-        *) usage ;;
+      --page)
+        PAGE="$2"
+        shift
+        shift
+        ;;
+      *)
+        echo "[x] Unknown option: $1"
+        exit 1
+        ;;
     esac
+  done
 fi
 
-[[ -z "$PAGE" ]] && usage
+if [ -z "$PAGE" ]; then
+  echo "Usage: $0 --page path/to/html_file_without_ext"
+  exit 1
+fi
 
-# --- DYNAMIC PATHS ---
-DIR=$(dirname "$PAGE")
-BASE=$(basename "$PAGE")
+BASENAME=$(basename "$PAGE")
+BASEDIR=$(dirname "$PAGE")
 INPUT_HTML="${PAGE}.htm"
 
-JSON="${DIR}/${BASE}.json"
-CLEAN_JSON="clean_${DIR}/${BASE}.json"
-ENRICHED_JSON="enrich_${DIR}/${BASE}.json"
-AZT_JSON="AZT_${DIR}/${BASE}.json"
-FINAL_JSON="Aurls_${DIR}/${BASE}.json"
+JSON="${BASEDIR}/${BASENAME}.json"
+CLEAN_JSON="clean_${BASEDIR}/${BASENAME}_clean.json"
+ENRICHED_JSON="enrich_${BASEDIR}/${BASENAME}_enriched.json"
+AZT_JSON="AZT_${BASEDIR}/${BASENAME}_amazon_tagged.json"
+FINAL_JSON="Aurls_${BASEDIR}/${BASENAME}_final.json"
 
-mkdir -p "$(dirname "$CLEAN_JSON")" "$(dirname "$ENRICHED_JSON")" "$(dirname "$AZT_JSON")" "$(dirname "$FINAL_JSON")"
+mkdir -p "clean_${BASEDIR}" "enrich_${BASEDIR}" "AZT_${BASEDIR}" "Aurls_${BASEDIR}"
 
-# --- RUN PIPELINE ---
+# ---- PIPELINE ----
+
 echo "[1/5] Converting HTML to JSON..."
-python kindle_to_json.py --input "$INPUT_HTML" --output "$JSON"
+python kindle_to_json.py --input "$INPUT_HTML" --output "$JSON" || exit 1
 
 echo "[2/5] Cleaning JSON..."
-python clean_json.py --input "$JSON" --output "$CLEAN_JSON"
+python clean_json.py --input "$JSON" --output "$CLEAN_JSON" || exit 1
 
 echo "[3/5] Enriching via Google Books..."
-python enrich_google_books.py --input "$CLEAN_JSON" --output "$ENRICHED_JSON"
+python enrich_google_books.py --input "$CLEAN_JSON" --output "$ENRICHED_JSON" || exit 1
 
 echo "[4/5] Extracting Amazon Title/Author..."
-python amazon_title_author.py --input "$ENRICHED_JSON" --output "$AZT_JSON"
+python amazon_title_author.py --input "$ENRICHED_JSON" --output "$AZT_JSON" || exit 1
 
 echo "[5/5] Fetching Amazon URLs..."
-python amazon_url.py --input "$AZT_JSON" --output "$FINAL_JSON"
+python amazon_url.py --input "$AZT_JSON" --output "$FINAL_JSON" || exit 1
 
 echo "[✓] Final output: $FINAL_JSON"
