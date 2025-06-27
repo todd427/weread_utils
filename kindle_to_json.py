@@ -1,14 +1,11 @@
 # kindle_to_json.py
-
 import json
 import argparse
-import re
 from bs4 import BeautifulSoup
-
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Extract book titles/authors from Amazon Orders HTML to JSON."
+        description="Extract book titles from Amazon Orders HTML to JSON."
     )
     parser.add_argument("--input", "-i", required=True, help="Input Amazon Orders HTML file")
     parser.add_argument("--output", "-o", required=True, help="Output JSON file")
@@ -16,44 +13,26 @@ def main():
 
     with open(args.input, encoding="utf-8") as f:
         html = f.read()
-
     soup = BeautifulSoup(html, "html.parser")
+
     books = []
-
-    # Each product is usually within a div with class 'a-fixed-left-grid-inner' or 'a-row'
-    for order_block in soup.find_all("div", class_="a-fixed-left-grid-inner"):
-        # Find the title: typically an <a> tag with 'a-link-normal' and 'a-text-bold'
-        title_tag = order_block.find("a", class_="a-link-normal")
-        if not title_tag:
+    seen = set()
+    for tag in soup.find_all("a", class_="a-link-normal"):
+        title = tag.get_text(strip=True)
+        # Filter out junk/non-books
+        if len(title) < 10:
             continue
-        title = title_tag.get_text(strip=True)
-
-        # Try to find the author (usually in a <span> with 'a-size-small' or after 'by ')
-        author = None
-        # Try to find a line with "by Author Name"
-        byline = order_block.find("span", string=re.compile(r"^by "))
-        if byline:
-            author = byline.get_text(strip=True).replace("by ", "")
-        else:
-            # Sometimes it's in the next sibling text after title
-            possible_author = title_tag.find_next(string=re.compile(r"by "))
-            if possible_author:
-                author = possible_author.strip().replace("by ", "")
-
-        # Fallback: Kindle books with no author—mark as 'Kindle Edition' or skip if too junky
-        if not author:
-            # Kindle Unlimited etc, skip junk entries
-            continue
-
-        # Filter out non-book/junk titles (optional, customize as needed)
-        junk = [
-            "cover", "review", "invoice", "subscribe", "return", "replacement",
-            "view order details", "ad free", "prime video"
+        blacklist = [
+            "order", "invoice", "return", "details", "prime", "subscribe",
+            "review", "replacement", "your items", "view order"
         ]
-        if any(j in title.lower() for j in junk):
+        if any(x in title.lower() for x in blacklist):
             continue
-
-        books.append({"title": title, "author": author})
+        if title in seen:
+            continue
+        seen.add(title)
+        # Set author as Unknown, unless you want to search more nearby
+        books.append({"title": title, "author": "Unknown"})
 
     with open(args.output, "w", encoding="utf-8") as f:
         json.dump(books, f, indent=2, ensure_ascii=False)
@@ -62,5 +41,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-        # Fallback: look for next sibling "by ...", or just mark as 'Unknown'
