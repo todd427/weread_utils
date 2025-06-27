@@ -1,0 +1,7 @@
+ 2277  python kindle_to_json.py --input toddReads/page2.htm --output page2.json
+ 2296  python kindle_to_json.py --input toddReads/page2.htm --output page2.json
+ 2302  python clean_json.py --input page2.json --output clean_page2.json
+ 2313  python enrich_google_books.py --input clean_page2.json --output enrich_page2.json
+ 2319  python amazon_title_author.py
+ 2320  python amazon_title_author.py --input enrich_page2.json --output AZT_page2.json
+ 2326  python amazon_url.py --input AZT_page2.json --output Aurls_page2.json
